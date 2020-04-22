@@ -2,6 +2,6 @@ FROM ubuntu
 
 RUN apt-get update -y
 
-WORKDIR /var/lib/jenkins/workspace/test/target/
+WORKDIR /home/
 
-COPY java-maven-junit-helloworld-2.0-SNAPSHOT.jar /home/ubuntu/
+COPY /var/lib/jenkins/workspace/test/target/java-maven-junit-helloworld-2.0-SNAPSHOT.jar /home/ubuntu/
