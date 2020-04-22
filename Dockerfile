@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java
+FROM ubuntu
 
 MAINTAINER vishal
 
