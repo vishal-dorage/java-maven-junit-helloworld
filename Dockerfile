@@ -2,4 +2,6 @@ FROM ubuntu
 
 RUN apt-get update -y
 
-WORKDIR /home/
+WORKDIR /var/lib/jenkins/workspace/test/target/
+
+COPY java-*.jar /home/ubuntu/
