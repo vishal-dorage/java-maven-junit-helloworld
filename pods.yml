@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: javaapp
-      image: vishaldorage/kubernetes:latest
+      image: vishaldorage/kubernetes:tagVersion
       ports:
         - containerPort: 8080
