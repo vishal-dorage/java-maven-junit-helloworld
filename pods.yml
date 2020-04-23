@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: nodeapp
-      image: vishaldorage/kubernetes
+      image: vishaldorage/kubernetes:66
       ports:
         - containerPort: 8080
